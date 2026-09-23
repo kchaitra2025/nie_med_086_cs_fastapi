@@ -20,7 +20,7 @@ class TicketCreate(BaseModel):
     category: str
     status: str
     
-class TicketResponse(BaseModel):
+class TicketResponse(TicketCreate):
     id: str
     
 # helper
